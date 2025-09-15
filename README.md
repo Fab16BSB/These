@@ -1,4 +1,21 @@
+![Doctorate Thesis](https://img.shields.io/badge/Doctorate-Thesis-ffb6c1)
+![University: Paris 8](https://img.shields.io/badge/University-Paris%208-red)
+![deep: learning](https://img.shields.io/badge/deep-learning-blue)
+![python](https://img.shields.io/badge/python-brightgreen)
+![Contributors](https://img.shields.io/badge/contributor-1-orange)
+![Stars](https://img.shields.io/github/stars/Fab16BSB/These?color=orange)
+![Fork](https://img.shields.io/github/forks/Fab16BSB/These?color=orange)
+![Watchers](https://img.shields.io/github/watchers/Fab16BSB/These?color=orange)
+
 # Real-Time Anomaly Detection in Video Streams
+
+## 🌍 Multilingual README Versions
+
+| 🇫🇷 Français | 🇬🇧 English | 🇪🇸 Español |
+|-------------|------------|------------|
+| [README.fr.md](./README.fr.md) | You are here ! | [README.es.md](./README.es.md) |
+
+---
 
 ## 📌 Context  
 
