@@ -230,14 +230,14 @@ Les tableaux suivants présentent les performances obtenues pour ces deux config
 #### Performance de YOLO + VGG-GRU disposé en série
 
 | Metric     | Accuracy | Précision | Rappel  | F1-Score |
-|------------|---------|-----------|---------|----------|
-| Valeur     | 87.3%   | 87.6%     | 87.3%   | 87.1%    |
+|------------|----------|-----------|---------|----------|
+| Valeur     | 87.3%    | 87.6%     | 87.3%   | 87.1%    |
 
 
 #### Matrice de confusion en pourcentage pour une évaluation en série
 
 | Truth \ Predicted | Bagarre | Coup de feu | Incendie | Normal |
-|------------------|---------|-------------|----------|--------|
+|-------------------|---------|-------------|----------|--------|
 | **Bagarre**       | 60.5%   | 2.4%        | 1.3%     | 35.8%  |
 | **Coup de feu**   | 10%     | 55.6%       | 14.8%    | 19.6%  |
 | **Incendie**      | 15.5%   | 10.6%       | 48%      | 25.9%  |
@@ -246,17 +246,17 @@ Les tableaux suivants présentent les performances obtenues pour ces deux config
 #### Performance de YOLO + VGG-GRU disposé en parallèle
 
 | Metric     | Accuracy | Précision | Rappel  | F1-Score |
-|------------|---------|-----------|---------|----------|
-| Valeur     | 78.42%  | 85.60%    | 78.42%  | 81.16%   |
+|------------|---------|-----------|---------|-----------|
+| Valeur     | 78.42%  | 85.60%    | 78.42%  | 81.16%    |
 
 ####  Matrice de confusion en pourcentage pour une évaluation en parallèle
 
 | Truth \ Predicted | Bagarre | Coup de feu | Incendie | Normal |
-|------------------|---------|-------------|----------|--------|
-| **Bagarre**      | 63.66%  | 6.58%       | 1.93%    | 27.83% |
-| **Coup de feu**  | 9.94%   | 66.06%      | 9.33%    | 14.67% |
-| **Incendie**     | 13.66%  | 15.73%      | 57.71%   | 12.9%  |
-| **Normal**       | 7.43%   | 5.96%       | 3.98%    | 82.63% |
+|------------------|---------|-------------|----------|---------|
+| **Bagarre**      | 63.66%  | 6.58%       | 1.93%    | 27.83%  |
+| **Coup de feu**  | 9.94%   | 66.06%      | 9.33%    | 14.67%  |
+| **Incendie**     | 13.66%  | 15.73%      | 57.71%   | 12.9%   |
+| **Normal**       | 7.43%   | 5.96%       | 3.98%    | 82.63%  |
 
 
 
@@ -271,35 +271,35 @@ Les tableaux ci-dessous résument ces mesures pour différentes vidéos d’éva
 #### Temps d’exécution de YOLO + VGG-GRU en parallèle
 
 | Durée de la vidéo | FPS de la vidéo | Moyenne de détections | Temps de traitement |
-|------------------|----------------|----------------------|------------------|
-| 16s              | 33             | 601ms                | 15s              |
-| 44s              | 30             | 533ms                | 35s              |
-| 9s               | 30             | 994ms                | 12s              |
-| 35s              | 30             | 1.1s                 | 57s              |
-| 23s              | 30             | 1s06                 | 35s              |
-| 1min 43          | 30             | 758ms                | 116s (1min 56)   |
-| 50s              | 30             | 826ms                | 61s              |
-| 1min 05          | 30             | 886ms                | 83s (1min 23)    |
-| 2s               | 30             | 847ms                | 847ms            |
-| 9s               | 30             | 870ms                | 11s              |
-| 2s               | 30             | 1s                   | 1s               |
+|-------------------|----------------|----------------------|-----------------------|
+| 16s               | 33             | 601ms                | 15s                   |
+| 44s               | 30             | 533ms                | 35s                   |
+| 9s                | 30             | 994ms                | 12s                   |
+| 35s               | 30             | 1.1s                 | 57s                   |
+| 23s               | 30             | 1s06                 | 35s                   |
+| 1min 43           | 30             | 758ms                | 116s (1min 56)        |
+| 50s               | 30             | 826ms                | 61s                   |
+| 1min 05           | 30             | 886ms                | 83s (1min 23)         |
+| 2s                | 30             | 847ms                | 847ms                 |
+| 9s                | 30             | 870ms                | 11s                   |
+| 2s                | 30             | 1s                   | 1s                    |
 
 
 #### Temps d’exécution de YOLO + VGG-GRU en série
 
 | Durée de la vidéo | FPS de la vidéo | Moyenne de détections | Temps de traitement |
-|------------------|----------------|----------------------|------------------|
-| 16s              | 33             | 1s                   | 26s              |
-| 44s              | 30             | 1s                   | 71s (1min 11)    |
-| 9s               | 30             | 1.5s                 | 20s              |
-| 35s              | 30             | 1.5s                 | 81s (1min 21)    |
-| 23s              | 30             | 1.5s                 | 48s              |
-| 1min 43          | 30             | 1.2s                 | 193s (3min 13)   |
-| 50s              | 30             | 1.3s                 | 102s (1min 42)   |
-| 1min 05          | 30             | 1.4s                 | 134s (2min 14)   |
-| 2s               | 30             | 1.3s                 | 1.3s             |
-| 9s               | 30             | 1.3s                 | 17s              |
-| 2s               | 30             | 1.5s                 | 1.5s             |
+|------------------|----------------|----------------------|------------------------|
+| 16s              | 33             | 1s                   | 26s                    |  
+| 44s              | 30             | 1s                   | 71s (1min 11)          |
+| 9s               | 30             | 1.5s                 | 20s                    |
+| 35s              | 30             | 1.5s                 | 81s (1min 21)          |
+| 23s              | 30             | 1.5s                 | 48s                    |
+| 1min 43          | 30             | 1.2s                 | 193s (3min 13)         |
+| 50s              | 30             | 1.3s                 | 102s (1min 42)         |
+| 1min 05          | 30             | 1.4s                 | 134s (2min 14)         |
+| 2s               | 30             | 1.3s                 | 1.3s                   |
+| 9s               | 30             | 1.3s                 | 17s                    |
+| 2s               | 30             | 1.5s                 | 1.5s                   |
 
 
 ---
