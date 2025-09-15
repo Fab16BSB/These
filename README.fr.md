@@ -57,7 +57,7 @@ L’objectif est de créer une architecture combinant **analyse spatiale et temp
 
 ## ⚙️ Environnement technique  
 
-L'esmble du projet a été développé sur un ordinateur portable fourni par l’entreprise, équipé des composants suivants :  
+L'ensemble du projet a été développé sur un ordinateur portable fourni par l’entreprise, équipé des composants suivants :  
 - **Mémoire RAM :** 32 Go  
 - **Processeur :** Intel Core i9, 16 cœurs cadencés à 2,3 GHz  
 - **Carte graphique :** Nvidia GeForce RTX 2080 avec 8 Go de RAM dédiée  
