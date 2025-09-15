@@ -61,7 +61,7 @@ Aucun jeu de données public n’était suffisamment adapté pour entraîner eff
 
 Nous avons donc conçu notre propre jeu de données.
 
-*⚠️Ce je de donnée est propriétaire et ne sera pas partagé ni communiqué.⚠️*  
+⚠️ *Ce jeu de données est propriétaire et ne peut être ni partagé ni diffusé.* ⚠️
 
 #### 🏷️ Classes et répartition
 
